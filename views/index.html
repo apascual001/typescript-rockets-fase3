@@ -1,0 +1,68 @@
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+
+        <div class="container">
+                <div class="sky">
+                    
+                        <div class="stars">
+                                <section id="showRocket">
+                                        <h2>Información de los cohetes</h2>
+                                        <button class="btn" id="crear-cohets" type="submit" onclick="showRockets()">Crear Cohets</button>
+                                        <button class="btn hide" id="accelerar-cohet1" type="submit" onclick="accelerarRocket(rocket1)">Accelerar Cohet 1</button>
+                                        <button class="btn hide" id="frenar-cohet1" type="submit" onclick="frenarRocket(rocket1)">Frenar Cohet 1</button>
+                        
+                                        <button class="btn hide" id="accelerar-cohet2" type="submit" onclick="accelerarRocket(rocket2)">Accelerar Cohet 2</button>
+                                        <button class="btn hide" id="frenar-cohet2" type="submit" onclick="frenarRocket(rocket2)">Frenar Cohet 2</button>
+                        
+                                </section>
+                        
+                                <div class="falling-stars">
+                                        <div class="star-fall"></div>
+                                        <div class="star-fall"></div>
+                                        <div class="star-fall"></div>
+                                        <div class="star-fall"></div>
+                                </div>
+                                <div class="small-stars">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                </div>
+                                <div class="medium-stars">
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+    <script src="../models/rocket.js"></script>
+    <script src="../models/propulsor.js"></script>
+    <script src="../controllers/controller.js"></script>
+    
+</body>
