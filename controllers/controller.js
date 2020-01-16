@@ -17,7 +17,7 @@ function showRockets() {
     for (var _i = 0, rockets_1 = rockets; _i < rockets_1.length; _i++) {
         var i_1 = rockets_1[_i];
         console.log(i_1);
-        elementRocket1.innerHTML += '<br> COHETE ' + i_1.codi + ' -' + ' POTENCIA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i_1.codi + ' -' + ' POTENCIA MÀXIMA PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i_1.propulsors.forEach(function (Propulsor) {
             elementRocket1.innerHTML += Propulsor.potencia + '  ';
@@ -41,7 +41,7 @@ function accelerarRocket(x) {
     for (var _i = 0, rockets_2 = rockets; _i < rockets_2.length; _i++) {
         var i = rockets_2[_i];
         console.log(i);
-        elementRocket1.innerHTML += '<br> COHETE ' + i.codi + ' -' + ' POTENCIA MÁXIMA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i.codi + ' -' + ' POTENCIA ACTUAL PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i.propulsors.forEach(function (Propulsor) {
             elementRocket1.innerHTML += Propulsor.potenciaActual + '  ';
@@ -57,7 +57,7 @@ function frenarRocket(x) {
     for (var _i = 0, rockets_3 = rockets; _i < rockets_3.length; _i++) {
         var i = rockets_3[_i];
         console.log(i);
-        elementRocket1.innerHTML += '<br> COHETE ' + i.codi + ' -' + ' POTENCIA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i.codi + ' -' + ' POTENCIA ACTUAL PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i.propulsors.forEach(function (Propulsor) {
             elementRocket1.innerHTML += Propulsor.potenciaActual + '  ';

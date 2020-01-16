@@ -21,7 +21,7 @@ function showRockets(){
     let rockets = [rocket1, rocket2];
     for (let i of rockets) {
         console.log(i);
-        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA MÀXIMA PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i.propulsors.forEach(Propulsor => {
             elementRocket1.innerHTML += Propulsor.potencia + '  ';
@@ -46,7 +46,7 @@ function accelerarRocket(x:any){
     let rockets = [rocket1, rocket2];
     for (let i of rockets) {
         console.log(i);
-        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA MÁXIMA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA ACTUAL PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i.propulsors.forEach(Propulsor => {
             elementRocket1.innerHTML += Propulsor.potenciaActual + '  ';
@@ -61,7 +61,7 @@ function frenarRocket(x:any){
     let rockets = [rocket1, rocket2];
     for (let i of rockets) {
         console.log(i);
-        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA PROPULSORES:  ';
+        elementRocket1.innerHTML += '<br> COHETE ' + i.codi +' -' +' POTENCIA ACTUAL PROPULSORS:  ';
         showRocket.appendChild(elementRocket1);
         i.propulsors.forEach(Propulsor => {
             elementRocket1.innerHTML += Propulsor.potenciaActual + '  ';

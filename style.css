@@ -898,7 +898,7 @@ label{
       left: -100%;
     }
   }
-  @media screen and (max-width: 970px) {
+ /* @media screen and (max-width: 970px) {
     .container {
       transform: scale(0.7);
     }
@@ -912,5 +912,5 @@ label{
     .container {
       transform: scale(0.3);
     }
-  }
+  }*/
   
